@@ -11,7 +11,7 @@ These instructions will guide you on how to get your project running on your loc
 Before running the Sensor Network Simulation, make sure you have the following installed:
 
 - CMake (minimum version 3.10)
-- A C++ compiler supporting C++17 (e.g., GCC, Clang, MSVC)
+- A C++ compiler supporting C++17
 - Git (for cloning necessary libraries)
 
 ## Installation and Running the Simulation
