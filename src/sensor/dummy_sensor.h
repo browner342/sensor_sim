@@ -1,7 +1,7 @@
 #ifndef DUMMYSENSOR_H
 #define DUMMYSENSOR_H
 
-#include "sensor.h"  // Include the base sensor header
+#include "sensor.h"
 
 class DummySensor : public Sensor {
 public:

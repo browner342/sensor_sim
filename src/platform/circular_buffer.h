@@ -16,7 +16,7 @@ public:
         tail = (tail + 1) % maxSize;
         full = tail == head;
         if (full) {
-            head = (head + 1) % maxSize; // Bufor pełny, nadpisujemy najstarsze dane
+            head = (head + 1) % maxSize;
         }
     }
 
@@ -25,10 +25,6 @@ public:
             return std::nullopt;
         }
         return buffer;
-        // T item = buffer[head];
-        // head = (head + 1) % maxSize;
-        // full = false;
-        // return item;
     }
 
     bool isEmpty() const {
