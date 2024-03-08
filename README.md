@@ -44,5 +44,3 @@ For example, to start a simulation with 10 sensors, logging every 2 seconds, and
 bash
 Copy code
 ./build/SensorSim --num 10 --interval 2 --file output.log --buff_size 100
-
-
